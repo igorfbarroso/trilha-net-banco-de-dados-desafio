@@ -86,4 +86,4 @@ WHERE Genero = 'Mistério'
 FROM Filmes
 INNER JOIN Atores ON Filmes.Id = Atores.Id
 INNER JOIN ElencoFilme ON Filmes.Id = ElencoFilme.Id
-WHERE ElencoFilme.Papel = Papel
+
